@@ -1,0 +1,114 @@
+.dark {
+  width: 100%;
+  padding: 84px 51px 80px 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(34, 34, 34, 1);
+  .box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h1 {
+      font-family: DM Sans;
+      font-size: 53.15px;
+      font-weight: 700;
+      line-height: 69.2px;
+      color: white;
+    }
+    p {
+      font-family: DM Sans;
+      font-size: 19.93px;
+      font-weight: 500;
+      line-height: 25.95px;
+      color: rgba(130, 130, 130, 1);
+    }
+    button {
+      width: 150px;
+      height: 48px;
+      border-radius: 5px;
+      background-color: rgba(69, 81, 116, 0.8);
+      font-family: DM Sans;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: white;
+      border: none;
+    }
+    .apps {
+      display: flex;
+      gap: 20px;
+    }
+  }
+  .manBox {
+    width: 502px;
+    height: 502px;
+    border-radius: 50%;
+    border: 1px solid rgba(166, 188, 250, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      position: relative;
+      left: 20px;
+    }
+  }
+}
+
+.light {
+  width: 100%;
+  padding: 84px 51px 80px 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(219, 219, 219, 1);
+  .box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h1 {
+      font-family: DM Sans;
+      font-size: 53.15px;
+      font-weight: 700;
+      line-height: 69.2px;
+      color: rgba(69, 81, 116, 0.8);
+    }
+    p {
+      font-family: DM Sans;
+      font-size: 19.93px;
+      font-weight: 500;
+      line-height: 25.95px;
+      color: rgba(69, 81, 116, 0.8);
+    }
+    button {
+      width: 150px;
+      height: 48px;
+      border-radius: 5px;
+      background-color: rgba(69, 81, 116, 0.8);
+      font-family: DM Sans;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: white;
+      border: none;
+    }
+    .apps {
+      display: flex;
+      gap: 20px;
+    }
+  }
+  .manBox {
+    width: 502px;
+    height: 502px;
+    border-radius: 50%;
+    border: 1px solid rgba(166, 188, 250, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    img {
+      position: relative;
+      left: 20px;
+    }
+  }
+}
